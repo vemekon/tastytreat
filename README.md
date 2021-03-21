@@ -4,9 +4,9 @@
 
 
 Version: 1.0.0
-Usage
- - $ npm install
- - $ npm run client-install
+Usage 
+ - $ cd tastytreat/client & npm install
+ - $ cd.. & npm install
  - $ npm run dev 
  - ( this will start the server and frontend/react app concurrently )
 
