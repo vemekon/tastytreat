@@ -1,0 +1,54 @@
+.inquiry-table {
+      font-family: Arial, Helvetica, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    .inquiry-table thead, .inquiry-table th {
+      border: 1px solid #ddd;
+      padding: 8px;
+    }
+    
+    .inquiry-table tr:nth-child(even){
+          background-color: #c5a9a9;
+      }
+    
+    .inquiry-table tr:hover {
+          background-color: #ddd;
+      }
+    
+    .inquiry-table th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: center;
+      background-color: #4CAF50;
+      color: white;
+    }
+    .inquiry-table td {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: center;
+      
+    }
+    .table-error{
+          width:100vw;
+          height: 100vh;
+          text-align: center;
+          margin-top:10vh;
+    }
+    .head-button{
+      cursor:pointer;
+
+    }
+    .fas{
+      margin-left:15%;
+      
+
+    }
+    @media screen and (max-width: 768px) {
+      th , td  {
+        padding-top: 6px;
+        padding-bottom: 6px;
+        font-size: small;
+      }
+    }

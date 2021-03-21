@@ -1,0 +1,42 @@
+
+    .search{
+      display:flex;
+      flex-direction: column;
+      width:50%;
+      height:50vh;
+      justify-items: center;
+      padding:1rem;
+      background: white;
+    }
+    .search-items{
+      display: flex;
+      justify-content: flex-start;
+      margin: 0.5rem 1rem;
+    }
+    .search-input{
+      padding:0.2rem 1rem;
+      width:100%;
+      border:15px;
+      
+    }
+    .search-input input{
+      outline: none;
+      padding: 0.3rem 1rem;
+      border :0.5px solid  gray;;
+      font-size: 1.2rem;
+      width:80%;
+      background: transparent;
+    }
+    .search-price , .search-bedroom{
+      display: flex;
+      justify-content: space-between;
+      padding: 0.5rem 1rem;
+    }
+    .search-price select , .search-bedroom select{
+      margin:0.2rem 0rem;
+      font-size: 0.8rem;
+      height: 1.5rem;
+      background: transparent;
+      border: 0.5px solid black;
+    
+    }
