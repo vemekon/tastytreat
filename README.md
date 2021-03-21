@@ -11,6 +11,6 @@ Usage
 
 # Visit http://localhost:3000
 
-Admin need to register and sign in to view inquiries made
-User can send inquiry form with out registeration
+ - Admin need to register and sign in to view inquiries made
+ - User can send inquiry form with out registeration
 
